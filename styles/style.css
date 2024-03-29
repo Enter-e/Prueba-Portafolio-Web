@@ -216,7 +216,6 @@ footer {
     justify-content: space-between;
     padding: 5px 180px;
     background-image: linear-gradient(to top, #e2ebf0 100%,#cfd9df 50%);
-    /* background-color: gray; */
     margin-top: auto;
 }
 
@@ -236,6 +235,44 @@ footer div i {
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     font-size: 20px;
+}
+
+.seccion-sobre{
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor-sobre {
+    margin: 30px 30vh 30px 30vh;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FB3640;
+}
+
+.contenedor-experiencia {
+
+    margin: 30px 30vh 30px 30vh;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FB3640;
 }
 
 
@@ -400,6 +437,7 @@ footer div i {
         align-items: center;
         justify-content: space-between;
         padding: 0.5rem 1rem;
+        margin-top: auto;
     }
 
     .contenedor-footer a{
@@ -415,9 +453,55 @@ footer div i {
         font-size: 15px;
 
     }
+
+    .seccion-sobre{
+        display: flex;
+        align-items: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .contenedor-sobre {
+        width: 100%;
+        height: auto;
+        margin: 15vh 0 15vh 0;
+        /* margin: 0px;
+        margin-top: 30px; */
+        padding: 20px;
+    
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: transparent;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: #FB3640;
+    }
+    
+    .contenedor-experiencia {
+    
+        width: 100%;
+        height: auto;
+        margin: 15vh 0 15vh 0;
+        /* margin-top: 30px; */
+        /* margin-bottom: 100px; */
+        padding: 20px;
+    
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: #FB3640;
+    }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 513px){
     html {
         font-size: 10px;
     }
@@ -524,7 +608,7 @@ footer div i {
     
     h2{
         font-family: "Teko", sans-serif;
-        font-size: 5rem;
+        font-size: 5.2rem;
         font-weight: 700;
         color:  white;
         margin-bottom: -10px;
@@ -555,7 +639,7 @@ footer div i {
     
     p {
         font-family: "Montserrat", sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         font-weight: 300;
         color: white;
         margin-bottom: 0;
@@ -772,7 +856,7 @@ footer div i {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: px){
     html {
         font-size: 10px;
     }

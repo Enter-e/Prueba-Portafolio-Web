@@ -134,6 +134,16 @@
     .enviar:hover {
         background-color: #FB3640;
     }
+
+    .contenedor-sobremi {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: #FB3640;
+    }
+    
     
     }
     
@@ -402,5 +412,6 @@
     .enviar:hover {
         background-color: #FB3640;
     }
-    
+
+   
     }
